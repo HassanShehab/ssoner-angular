@@ -1,0 +1,45 @@
+.sign{
+    background: url("/assets/img/firefighters-rescued-survivors.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.form span, .form p{
+    color: white;
+}
+.form{
+    background: rgba(235, 232, 229, 0.308);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow:  2px 2px 10px  rgba(0, 0, 0, 0.664);
+    margin-top: 40px !important;
+    text-align: center !important;
+}
+.form .span1{
+    text-align: center !important;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+input{
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important;
+    border-bottom: 2px solid white !important;
+    text-align: right !important;
+}
+
+.form .condi{
+    color: white;
+    font-size: 18px;
+}
+
+.form button{
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+::placeholder {
+    color: white !important;
+    opacity: 0.8 !important;
+}

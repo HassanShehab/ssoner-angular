@@ -1,0 +1,26 @@
+<div class="login">
+    <div class="container">
+        <form class="col-md-12" action="" method="post">
+            <!-- ====REGIST FORM==== -->
+            <div class="form my-auto col-lg-6 col-md-12 text-center mx-auto mt-5">
+                <h4 class="text-light"><span class="span1">تسجيل الدخول</span> </h4>
+                <span>ادخل الرقم القومي</span>
+                <input class="form-control" type="text" placeholder="يجب ان يتكون من 14 رقم"><br>
+                <span>ادخل الرقم السري</span>
+                <input class="form-control" type="text" placeholder="الرقم السري"><br>
+                <label class="condi" for="agree"> أوافق على الشروط والأحكام</label>
+                <input type="checkbox" id="agree" name="agree" value="condition"><br>               
+                <a routerLink="/land"><button class="btn btn-primary"> تسجيل الدخول </button></a>
+                <p >لا امتلك حساب <a routerLink="/sign up" class="text-primary"> إنشاء حساب </a></p>
+            </div>
+        </form>
+        <div class="back">
+            <a routerLink="/home" class="btn btn-primary homeBtn" title="العودة للصفحة الرئيسية">
+                <i class="fas fa-home fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- ====FONTAWSOME JS==== -->
+<script src="https://kit.fontawesome.com/f8905b4eb0.js" crossorigin="anonymous"></script>

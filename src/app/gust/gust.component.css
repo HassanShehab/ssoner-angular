@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.why-us .container{
+    box-shadow: none;
+}
+.call, .why-us .box{
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.3s;
+}
+.call{
+  margin: auto;
+  padding-bottom: 15px;
+}
+.call:hover{
+  padding-bottom: 0px;
+}
+.why-us .box {
+    text-align: right;
+    margin-top: 15px;
+  }
+  .why-us .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e4356;
+  }
+  .why-us .box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #353535;
+  }
+  .why-us .box p {
+    color: #919191;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  .why-us .box:hover, .call:hover {
+    background: #1e4356;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  }
+  .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p, .call:hover p, .call:hover h3 {
+    color: #fff;
+  }
+  .num .container .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .num .container .row .item{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: right;
+  }
+  .num .container .row .item p{
+    font-size: 18px;
+  }
+  .num .container .row .item h4{
+    text-align: left;
+    font-weight: bold;
+  }
